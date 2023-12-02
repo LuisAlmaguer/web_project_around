@@ -1,0 +1,16 @@
+.elements{
+    position: relative;
+    width: 100%;
+    flex-shrink: 0;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 290px);
+    grid-template-rows: repeat(2, 370px);
+    grid-template-areas:
+    "element element element" 
+    "element element element";
+    box-sizing: border-box;
+    justify-content: center;
+    grid-gap: 20px;
+    list-style: none;
+}

@@ -1,0 +1,10 @@
+.profile__eclipse{
+    width: 120px;
+    height: 120px;
+    background-color:beige;
+    border-radius: 50%;
+    fill:none;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+}

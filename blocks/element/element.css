@@ -1,0 +1,14 @@
+.element{
+    list-style: none;
+    position: relative;
+    width: 282px;
+    height: 361px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    column-gap:50px;
+    grid-area: element;
+    
+}
