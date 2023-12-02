@@ -12,8 +12,8 @@
         <header class="header">
         <div class ="header__logo"></div>
         <hr class="header__line"/>
-        </header>
-        
+        </header>   
+
     <section class="profile">
         <div class="profile__avatar">
         <div class="profile__eclipse"><img class="profile__image" src="./images/profile/image.jpg" alt="avatar profile"></div>
@@ -21,9 +21,9 @@
         <div class="profile__info">
             <p class="profile__name">Jacques Cousteau</p>
             <p class="profile__job">Explorer</p>
-            <a class="profile__edit-button" href="#"><img src="./images/profile/Edit Button.svg" alt="edit button" /></a>   
+            <button class="profile__edit-button"><img src="./images/profile/Edit Button.svg" alt="edit button" /></button>   
         </div>
-        <a class="profile__add-button" href="#"><img src="./images/profile/Add Button.svg" alt="add button" /></a>
+        <button class="profile__add-button"><img src="./images/profile/Add Button.svg" alt="add button" /></button>
     </section>
 
     <ul class="elements">
@@ -32,7 +32,7 @@
             <img class="element__image" src = "./images/element/Yosemite-valley.jpg" alt="Valley pinos bosque">
             <div class="element__info">
             <p class ="element__text">Yosemite Valley</p>
-            <a class="element__like" href="#"><img src="./images/element/Like.svg" alt="like button" /></a></div>
+            <button class="element__like"><img src="./images/element/Like.svg" alt="like button" /></button></div>
             <div class="element__rectangle"></div></div> 
     </li> 
     <li>
@@ -40,7 +40,7 @@
             <img class="element__image" src = "./images/element/Lake-louise.png" alt="Lago lake louise">
             <div class="element__info">
             <p class ="element__text">Lake Louise</p>
-            <a class="element__like" href="#"><img src="./images/element/Like.svg" alt="like button" /></a></div>
+            <button class="element__like"><img src="./images/element/Like.svg" alt="like button" /></button></div>
             <div class="element__rectangle"></div></div>
     </li> 
     <li>
@@ -48,7 +48,7 @@
             <img class="element__image" src = "./images/element/Bald-mountains.png" alt="Mountains atardecer">
             <div class="element__info">
             <p class ="element__text">Bald Mountains</p>
-            <a class="element__like" href="#"><img src="./images/element/Like.svg" alt="like button" /></a></div>
+            <button class="element__like"><img src="./images/element/Like.svg" alt="like button" /></button></div>
             <div class="element__rectangle"></div></div>
     </li> 
     <li>
@@ -56,7 +56,7 @@
             <img class="element__image" src = "./images/element/Latemar.png" alt="Anochecer Latemar">
             <div class="element__info">
             <p class ="element__text">Latemar</p>
-            <a class="element__like" href="#"><img src="./images/element/Like.svg" alt="like button" /></a></div>
+            <button class="element__like"><img src="./images/element/Like.svg" alt="like button" /></button></div>
             <div class="element__rectangle"></div></div>
     </li> 
     <li>
@@ -64,7 +64,7 @@
             <img class="element__image" src = "./images/element/Vanoise-national.png" alt="Park Vanoise">
             <div class="element__info">
             <p class ="element__text">Vanoise National Park</p>
-            <a class="element__like" href="#"><img src="./images/element/Like.svg" alt="like button" /></a></div>
+            <button class="element__like"><img src="./images/element/Like.svg" alt="like button" /></button></div>
             <div class="element__rectangle"></div></div>
      </li> 
     <li>
@@ -72,7 +72,7 @@
             <img class="element__image" src = "./images/element/Lago-di-braies.png" alt="Lago y montañas">
             <div class="element__info">
             <p class ="element__text">Lago di Braies</p>
-            <a class="element__like" href="#"><img src="./images/element/Like.svg" alt="like button" /></a></div>
+            <button class="element__like"><img src="./images/element/Like.svg" alt="like button" /></button></div>
             <div class="element__rectangle"></div></div>
     </li> 
     </ul>
@@ -80,6 +80,26 @@
     <footer class="footer">
             <h2 class="footer__text">© 2023 Around The U.S.</h2>
     </footer>
+
+    <div class = "popup popup_content_edit-profile">
+        <div class="popup__overlay"></div>
+        <button class="popup__button-close"><img src="./images/form/Close Icon.svg" alt="close form" /></button>
+        <h3 class="popup__text">Edit profile</h3>
+    <div class="popup__content">
+        <form class="form">
+            <fieldset class="form__set">
+                <!-- <label for="input-name" class="form__label">Nombre</label> -->
+                <input type="text" class="form__input" name="name">
+                <hr class="form__line"/>
+                <!-- <label for="input-job" class="form__label">Trabajo</label> -->
+                <input type="text" class="form__input" name="job">
+                <hr class="form__line"/>
+                <input type="submit" class="form__submit" value="Save">
+            </fieldset>
+        </form>
+        
+    </div>
+</div> 
 </div>
 <script src="script.js"></script>
 </body>

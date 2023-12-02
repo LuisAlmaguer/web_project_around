@@ -1,5 +1,6 @@
 .element__like{
     width: 20.759px;
     height: 18.131px;
-    align-items:last baseline;
+    background: none;
+    border: 0;
 }
