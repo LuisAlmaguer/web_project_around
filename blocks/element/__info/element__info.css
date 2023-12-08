@@ -5,4 +5,5 @@
     justify-content: space-between;
     align-self:center;
     padding-bottom: 25px;
+    z-index: 0;
 }

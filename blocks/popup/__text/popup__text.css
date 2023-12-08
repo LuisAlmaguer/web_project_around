@@ -1,11 +1,9 @@
 .popup__text{
-    margin-top: 34px;
-    width: 330px;
-    height: 23px;
-    flex-shrink: 0;
+    margin-top: 25px;
+    width: 238px;
     color: #000;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;

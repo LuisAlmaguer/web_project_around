@@ -81,20 +81,20 @@
             <h2 class="footer__text">© 2023 Around The U.S.</h2>
     </footer>
 
-    <div class = "popup popup_content_edit-profile">
+    <div class = "popup popup_content_edit-profile popup_show">
         <div class="popup__overlay"></div>
-        <button class="popup__button-close"><img src="./images/form/Close Icon.svg" alt="close form" /></button>
-        <h3 class="popup__text">Edit profile</h3>
     <div class="popup__content">
-        <form class="form">
-            <fieldset class="form__set">
+        <button class="popup__button-close"><img src="./images/form/Close Icon.svg" alt="close form" /></button>
+        <form class="popup__form">
+            <h3 class="popup__text">Edit profile</h3>
+            <fieldset class="popup__set">
                 <!-- <label for="input-name" class="form__label">Nombre</label> -->
-                <input type="text" class="form__input" name="name">
-                <hr class="form__line"/>
+                <input type="text" class="popup__input" name="name">
+                <hr class="popup__line"/>
                 <!-- <label for="input-job" class="form__label">Trabajo</label> -->
-                <input type="text" class="form__input" name="job">
-                <hr class="form__line"/>
-                <input type="submit" class="form__submit" value="Save">
+                <input type="text" class="popup__input" name="job">
+                <hr class="popup__line"/>
+                <input type="submit" class="popup__submit" value="Save">
             </fieldset>
         </form>
         
