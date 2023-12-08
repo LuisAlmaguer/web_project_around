@@ -8,5 +8,8 @@
     flex-shrink: 0;
     border: 0;
     align-self: last baseline;
+}
 
+.popup__button-close:hover{
+    opacity:0.7;
 }

@@ -10,3 +10,17 @@
     box-sizing: border-box;
     align-items: center;
 }
+
+@media screen and (max-width: 767px) and (min-width:320px){
+    .profile__info{
+        position: relative;
+        width: 282px;
+        height: 50px;
+        align-content:last baseline;
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 15px;
+        text-align: center;
+    }
+    
+}

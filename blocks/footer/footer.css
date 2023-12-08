@@ -7,3 +7,9 @@
     height: 18px;
     flex-shrink: 0;
 }
+
+@media screen and (max-width: 767px) and (min-width:320px){
+    .footer{
+        width: 282px;
+    }
+    }

@@ -37,7 +37,6 @@
 @import url(../blocks/popup/__submit/popup__submit.css);
 @import url(../blocks/popup/__line/popup__line.css);
 
-
 @font-face {
     font-family: Inter;
     src: url('/Fonts/Inter-VariableFont_slnt\,wght.ttf');

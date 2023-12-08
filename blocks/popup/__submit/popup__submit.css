@@ -13,4 +13,9 @@
     font-weight: 400;
     line-height: normal;
     align-self: last baseline;
+    border: none;
+}
+
+.popup__submit:hover{
+    background:gray;
 }

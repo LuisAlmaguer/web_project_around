@@ -10,3 +10,13 @@
     line-height: 48px;
     grid-area: name;
 }
+
+
+@media screen and (max-width: 767px) and (min-width:320px){
+    .profile__name{
+        width: 196px;
+        height: 22px;
+        font-size: 22px;
+        text-align: center;
+    }
+}

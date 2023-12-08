@@ -6,3 +6,7 @@
     border: 0;
     z-index: 1;
 }
+
+.element__like:hover{
+    opacity:0.7;
+}

@@ -5,3 +5,10 @@
     flex-shrink: 0;
     align-self:first baseline;
 }
+
+@media screen and (max-width: 767px) and (min-width:320px){
+    
+    .header__logo{
+    background-size: 100%;
+    }
+}
