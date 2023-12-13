@@ -1,9 +1,11 @@
 .element__like{
     width: 20.759px;
     height: 18.131px;
-    background: none;
-    color: #FFF;
+    background-image: url("../../../images/element/Like.svg");
+    background-color: white;
     border: 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     z-index: 1;
 }
 
