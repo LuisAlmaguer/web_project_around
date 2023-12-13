@@ -1,7 +1,13 @@
 .popup__input{
-    width: 238px;
+    width: 330px;
     height: 14px;
     flex-shrink: 0;
     border: 0;
     align-self: center;
-}
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }

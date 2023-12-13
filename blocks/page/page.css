@@ -4,9 +4,16 @@
 }
 
 .page{
-    min-width: 100%;
+    position: relative;
+    min-width: 880px;
     background-color: #000;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+@media screen and (max-width: 767px) and (min-width:320px){
+    .page{
+      width: 320px;
+    }
+    }
