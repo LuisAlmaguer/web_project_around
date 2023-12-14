@@ -1,7 +1,7 @@
 .profile__edit-button{
     width: 24px;
     height: 24px;
-    background-image: url(../../../images/profile/Edit-Button.svg);
+    background-image: url("../../images/profile/Edit-Button.svg");
     flex-shrink: 0;
     grid-area: edit;
     background-color: black;
