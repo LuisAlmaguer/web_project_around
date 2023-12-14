@@ -8,6 +8,11 @@ En el script utilizamos funciones que interactuen con el HTML y lo modificando, 
 
 Utilizamos posicionamiento flex - grid y querymedias para dar estilo segun ancho de pantalla.
 
-Deploy a projecto en Netlify
+
+Deploy projecto en GitPages
+
+https://luisalmaguer.github.io/web_project_around/
+
+Deploy projecto en Netlify
 
 https://mellow-hamster-7959e2.netlify.app/
