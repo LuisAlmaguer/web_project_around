@@ -15,7 +15,7 @@ const inputJob = formProfile.querySelector('.popup__input[name="job"]');
 //funciones
 
 function togglePopup(popup){
-    popup.classList.toggle('popup_show');
+    popup.classList.toggle('popup__show');
 }
 
 //event listeners

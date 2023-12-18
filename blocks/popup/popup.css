@@ -1,3 +1,132 @@
 .popup{
    display: none;
 }
+
+.popup__content{
+   position: relative;
+   width: 430px;
+   height: 330px;
+   flex-shrink: 0;
+   border-radius: 10px;
+   background: #FFF;
+   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+}
+
+/* .popup_content_edit-profile{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 430px;
+   height: 330px;
+   flex-shrink: 0;
+   border-radius: 10px;
+   background: #FFF;
+   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+} */
+
+.popup__overlay{
+   opacity: .7;
+   background-color: black;
+   position: absolute;
+   width:100vw;
+   height:100vh;
+}
+
+.popup__button-close{
+   width: 26px;
+   height: 26px;
+   position: absolute;
+   top:-55px;
+   right:5px;
+   background:none;
+   flex-shrink: 0;
+   border: 0;
+   align-self: last baseline;
+}
+
+.popup__button-close:hover{
+   opacity:0.7;
+}
+
+.popup__form{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 35px;
+   color: black;
+}
+
+.popup__text{
+   margin-top: 25px;
+   width: 330px;
+   color: #000;
+   font-family: Inter;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 900;
+   line-height: normal;
+}
+
+.popup__set{
+   width: 330px;
+   display: flex;
+   flex-direction: column;
+   row-gap:20px;
+   border: none;
+}
+
+.popup__input{
+   width: 330px;
+   height: 14px;
+   flex-shrink: 0;
+   border: 0;
+   align-self: center;
+   color: #000;
+   font-family: Inter;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   }
+
+.popup__line{
+   width: 330px;
+   height: 1px;
+   opacity: 0.2;
+}
+
+.popup__submit{
+   margin-top: 28px;
+   width: 330px;
+   height: 46px;
+   flex-shrink: 0;
+   border-radius: 2px;
+   background: #000;
+   color: #FFF;
+   text-align: center;
+   font-family: Inter;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   align-self: last baseline;
+   border: none;
+}
+
+.popup__submit:hover{
+   background:gray;
+}
+
+.popup__show{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   position: fixed;
+   width:100vw;
+   height:100vh;
+}
+

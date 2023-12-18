@@ -2,42 +2,15 @@
 
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/header__logo.css);
-@import url(../blocks/header/header__line.css);
 
 @import url(../blocks/profile/profile.css);
-@import url(../blocks/profile/profile__avatar.css);
-@import url(../blocks/profile/profile__eclipse.css);
-@import url(../blocks/profile/profile__image.css);
-@import url(../blocks/profile/profile__info.css);
-@import url(../blocks/profile/profile__name.css);
-@import url(../blocks/profile/profile__job.css);
-@import url(../blocks/profile/profile__edit-button.css);
-@import url(../blocks/profile/profile__add-button.css);
 
 @import url(../blocks/elements/elements.css);
 @import url(../blocks/element/element.css);
-@import url(../blocks/element/element__info.css);
-@import url(../blocks/element/element__rectangle.css);
-@import url(../blocks/element/element__image.css);
-@import url(../blocks/element/element__text.css);
-@import url(../blocks/element/element__like.css);
 
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/footer__text.css);
 
 @import url(../blocks/popup/popup.css);
-@import url(../blocks/popup/popup_content_edit-profile.css);
-@import url(../blocks/popup/popup__overlay.css);
-@import url(..//blocks/popup/popup__button-close.css);
-@import url(../blocks/popup/popup__text.css);
-@import url(../blocks/popup/popup__content.css);
-@import url(../blocks/popup/popup_show.css);
-@import url(../blocks/popup/popup__form.css);
-@import url(../blocks/popup/popup__set.css);
-@import url(../blocks/popup/popup__input.css);
-@import url(../blocks/popup/popup__submit.css);
-@import url(../blocks/popup/popup__line.css);
 
 @font-face {
     font-family: Inter;
