@@ -1,7 +1,0 @@
-.popup__set{
-    width: 330px;
-    display: flex;
-    flex-direction: column;
-    row-gap:20px;
-    border: none;
-}

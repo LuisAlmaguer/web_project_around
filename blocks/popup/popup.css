@@ -130,3 +130,37 @@
    height:100vh;
 }
 
+@media screen and (max-width: 767px) and (min-width:320px){
+
+   .popup__content{
+      position: relative;
+      width: 282px;
+      height: 322px;
+   }
+
+   .popup__button-close{
+      top:-55px;
+      right:5px;
+   }
+
+   .popup__text{
+      width: 238px;
+   }
+
+   .popup__set{
+      width: 238px;
+   }
+
+   .popup__input{
+      width: 238px;
+      }
+
+   .popup__line{
+      width: 238px;
+      }
+
+   .popup__submit{
+      width: 238px;
+      }
+
+}
