@@ -86,7 +86,7 @@
 .profile__edit-button{
     width: 24px;
     height: 24px;
-    background-image: url("../../images/profile/Edit-Button.svg");
+    background-image: url("../images/profile/Edit-Button.svg");
     flex-shrink: 0;
     grid-area: edit;
     background-color: black;
@@ -104,7 +104,7 @@
     flex-shrink: 0;
     align-self:center;
     border: 0;
-    background-image: url("../../images/profile/Add-Button.svg");
+    background-image: url("../images/profile/Add-Button.svg");
     background-color: black;
 }
 
@@ -157,7 +157,7 @@
     .profile__add-button{
         margin-top: 30px;
         width: 282px;
-        background-image: url("../../images/profile/Add-Buttona.svg");
+        background-image: url("../images/profile/Add-Buttona.svg");
         border:1px solid white;
         background-size: 16px 16px;
         background-position: 50% 50%;
