@@ -15,25 +15,25 @@ const inputJob = formProfile.querySelector('.popup__input[name="job"]');
 //funciones
 
 function togglePopup(popup){
-    popup.classList.toggle('popup__show');
+  popup.classList.toggle('popup__show');
 }
 
 //event listeners
 
 editButton.addEventListener('click', function(){
-    togglePopup(popupProfile);
-    inputName.value =profileName.textContent;
-    inputJob.value = profileJob.textContent;
+  togglePopup(popupProfile);
+  inputName.value =profileName.textContent;
+  inputJob.value = profileJob.textContent;
 });
 
 closeButton.addEventListener('click', function(){
-    togglePopup(popupProfile);
+  togglePopup(popupProfile);
 });
 
 formProfile.addEventListener('submit', function(event){
-    event.preventDefault();
-    profileName.textContent = inputName.value;
-    profileJob.textContent = inputJob.value;
-    formProfile.reset();
-    togglePopup(popupProfile);
+  event.preventDefault();
+  profileName.textContent = inputName.value;
+  profileJob.textContent = inputJob.value;
+  formProfile.reset();
+  togglePopup(popupProfile);
 })
