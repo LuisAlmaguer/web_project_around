@@ -4,11 +4,7 @@
     flex-shrink: 0;
     margin-top: 50px;
     display: grid;
-    grid-template-columns: repeat(3, 282px);
-    grid-template-rows: repeat(2, 361px);
-    grid-template-areas:
-    "element element element" 
-    "element element element";
+    grid-template-columns: repeat(3, 1fr);
     box-sizing: border-box;
     justify-content: center;
     grid-gap: 10px;

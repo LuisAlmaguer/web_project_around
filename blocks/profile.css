@@ -92,6 +92,7 @@
     background-color: black;
     background-repeat: no-repeat;
     border-style: none;
+    cursor: pointer;
 }
 
 .profile__edit-button:hover{
@@ -106,6 +107,7 @@
     border: 0;
     background-image: url("../images/profile/Add-Button.svg");
     background-color: black;
+    cursor: pointer;
 }
 
 .profile__add-button:hover{
