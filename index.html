@@ -30,10 +30,6 @@
  
     </ul>
 
-    <footer class="footer">
-            <h2 class="footer__text">&#169; 2023 Around The U.S.</h2>
-    </footer>
-
     <template class ="template-element">
         <div class="element">
             <li>
@@ -73,7 +69,7 @@
         <h3 class="popup__text">Nuevo lugar</h3>
         <fieldset class="popup__set">
             <!-- <label for="input-name" class="form__label">Nombre</label> -->
-            <input type="text" class="popup__input" name="element" placeholder="Título">
+            <input type="text" class="popup__input" name="title" placeholder="Título">
             <hr class="popup__line"/>
             <!-- <label for="input-job" class="form__label">Trabajo</label> -->
             <input type="text" class="popup__input" name="image" placeholder="Enlace de la imagen">
@@ -83,7 +79,18 @@
     </form>
 </div>
 </div>
+<div class = "popup" id="popup-image">
+<div class="popup__overlay"></div>
+<div class="popup__content">
+<button class="popup__button-close"><img src="./images/form/Close-Icon.svg" alt="close form" /></button>
+<img class="popup__image-opened"/>
+<h3 class = "popup__image-title"></h3>
 </div>
+</div>
+
+<footer class="footer">
+    <h2 class="footer__text">&#169; 2023 Around The U.S.</h2>
+</footer>
 <script src="script.js"></script>
 </body>
 </html>

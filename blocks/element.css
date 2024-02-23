@@ -72,6 +72,10 @@
     opacity:0.7;
 }
 
+.element__liked{
+    background-image: url("../images/element/Liked.png");
+}
+
 .element__trash{
     width: 20.759px;
     height: 18.131px;
