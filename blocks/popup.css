@@ -86,7 +86,7 @@
 
 .popup__input{
    width: 330px;
-   height: 14px;
+   height: 20px;
    flex-shrink: 0;
    border: 0;
    align-self: center;

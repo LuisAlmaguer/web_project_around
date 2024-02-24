@@ -54,8 +54,6 @@
 }
 
 .profile__name{
-    /* width: 373px; */
-    /* height: 39px; */
     flex-shrink: 0;
     color: #FFF;
     font-family: Inter;
@@ -70,7 +68,6 @@
 }
 
 .profile__job{
-    /* width: 415px; */
     color: #FFF;
     font-family: Inter;
     font-size: 18px;
@@ -133,7 +130,6 @@
         width: 282px;
         height: 50px;
         align-content:last baseline;
-        /* display: flex; */
         justify-content: center;
         flex-wrap: wrap;
         text-align: center;
@@ -141,7 +137,6 @@
     }
 
     .profile__name{
-        /* width: 196px; */
         font-size: 22px;
         text-align: center;
     }

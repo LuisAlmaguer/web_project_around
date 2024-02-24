@@ -20,7 +20,6 @@
         <div class="profile__info">
             <p class="profile__name">Jacques Cousteau</p>
             <button class="profile__edit-button"></button>
-            <!-- <img src="./images/profile/Edit-Button.svg" alt="edit button" /> -->
             <p class="profile__job">Explorer</p>  
         </div>
         <button class="profile__add-button"></button>
@@ -33,13 +32,12 @@
     <template class ="template-element">
         <div class="element">
             <li>
-            <img class="element__image" src = " " alt="Lago y montañas">
+            <img class="element__image" src = " " alt=" ">
             <div class="element__info">
             <p class ="element__text"></p>
             <button class="element__like"></button>
         </div>
         <button class="element__trash"></button>
-            <!-- <img src="./images/element/Like.svg" alt="like button" /> -->
             <div class="element__rectangle"></div></li></div>
         </template>
 
@@ -50,11 +48,9 @@
         <form class="popup__form-profile">
             <h3 class="popup__text">Edit profile</h3>
             <fieldset class="popup__set">
-                <!-- <label for="input-name" class="form__label">Nombre</label> -->
-                <input type="text" class="popup__input" name="name" placeholder="Profile name">
+                <input type="text" class="popup__input" name="name" placeholder="Profile name" required>
                 <hr class="popup__line"/>
-                <!-- <label for="input-job" class="form__label">Trabajo</label> -->
-                <input type="text" class="popup__input" name="job" placeholder="Profile job">
+                <input type="text" class="popup__input" name="job" placeholder="Profile job"required>
                 <hr class="popup__line"/>
                 <input type="submit" class="popup__submit" value="Save">
             </fieldset>
@@ -68,11 +64,9 @@
     <form class="popup__form-element">
         <h3 class="popup__text">Nuevo lugar</h3>
         <fieldset class="popup__set">
-            <!-- <label for="input-name" class="form__label">Nombre</label> -->
-            <input type="text" class="popup__input" name="title" placeholder="Título">
+            <input type="text" class="popup__input" name="title" placeholder="Título" required>
             <hr class="popup__line"/>
-            <!-- <label for="input-job" class="form__label">Trabajo</label> -->
-            <input type="text" class="popup__input" name="image" placeholder="Enlace de la imagen">
+            <input type="text" class="popup__input" name="image" placeholder="Enlace de la imagen" required>
             <hr class="popup__line"/>
             <input type="submit" class="popup__submit" value="Crear">
         </fieldset>

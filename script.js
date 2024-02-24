@@ -73,6 +73,7 @@ function createElement(title, link){
   const imageOpened = popupImage.querySelector('.popup__image-opened');
   const titleImageOpened = popupImage.querySelector('.popup__image-title');
   elementImage.src = link;
+  elementImage.alt = title;
   elementTitle.textContent = title;
   elementLiked.addEventListener('click', function(){
     elementLiked.classList.toggle('element__liked');
