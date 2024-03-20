@@ -58,7 +58,11 @@ const cardArea = document.querySelector('.elements');
 //funciones
 
 
-function togglePopup(popup){
+// function togglePopup(popup){
+//   popup.classList.toggle('popup__show');
+// }
+
+const closeWindow = (popup) => {
   popup.classList.toggle('popup__show');
 }
 
@@ -98,27 +102,37 @@ initialCards.forEach(function(item){
 //event listeners
 
 editButton.addEventListener('click', function(){
-  togglePopup(popupProfile);
+  closeWindow(popupProfile);
   inputName.value = profileName.textContent;
   inputJob.value = profileJob.textContent;
 });
 
 closeButtonEdit.addEventListener('click', function(){
-  togglePopup(popupProfile);
+  closeWindow(popupProfile);
 });
 
 addButton.addEventListener('click', function(){
   formProfile.reset();
-  togglePopup(popupElement);
+  closeWindow(popupElement);
 });
 
 closeButtonAdd.addEventListener('click', function(){
-  togglePopup(popupElement);
+  closeWindow(popupElement);
 });
 
 closeButtonImage.addEventListener('click', function(){
-  togglePopup(popupImage);
+  closeWindow(popupImage);
 });
+
+//tecla ESC
+
+document.addEventListener('keypress', function(e){
+  if(e.key==27) {
+    closeWindow(popup);;
+     }
+})
+
+//
 
 
 formProfile.addEventListener('submit', function(event){
@@ -126,7 +140,7 @@ formProfile.addEventListener('submit', function(event){
   profileName.textContent = inputName.value;
   profileJob.textContent = inputJob.value;
   formProfile.reset();
-  togglePopup(popupProfile);
+  closeWindow(popupProfile);
 });
 
 formElement.addEventListener('submit', function(event){
@@ -134,5 +148,10 @@ formElement.addEventListener('submit', function(event){
   const newCard = createElement(inputTitle.value, inputImage.value);
   cardArea.prepend(newCard);
   formElement.reset();
-  togglePopup(popupElement);
+  closeWindow(popupElement);
 });
+
+//cerrar popup clicking outside
+window.addEventListener('click', e => e.target == popupProfile && popupElement && popupImage && closeWindow());
+
+//
