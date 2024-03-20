@@ -39,13 +39,13 @@ const closeButtonAdd = popupElement.querySelector('.popup__button-close');
 
 const profileName = document.querySelector('.profile__name');
 const profileJob = document.querySelector('.profile__job');
-const formProfile = popupProfile.querySelector('.popup__form-profile');
+const formProfile = popupProfile.querySelector('.popup__form');
 const inputName = formProfile.querySelector('.popup__input[name="name"]');
 const inputJob = formProfile.querySelector('.popup__input[name="job"]');
 
 const elementName = document.querySelector('.element__text');
 const elementImage = document.querySelector('.element__image');
-const formElement = popupElement.querySelector('.popup__form-element');
+const formElement = popupElement.querySelector('.popup__form');
 const inputTitle = formElement.querySelector('.popup__input[name="title"]');
 const inputImage = formElement.querySelector('.popup__input[name="image"]');
 
@@ -57,10 +57,10 @@ const cardArea = document.querySelector('.elements');
 
 //funciones
 
+
 function togglePopup(popup){
   popup.classList.toggle('popup__show');
 }
-
 
 
 function createElement(title, link){
