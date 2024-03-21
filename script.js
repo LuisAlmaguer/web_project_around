@@ -62,9 +62,15 @@ const cardArea = document.querySelector('.elements');
 //   popup.classList.toggle('popup__show');
 // }
 
-const closeWindow = (popup) => {
-  popup.classList.toggle('popup__show');
-}
+const closePopup = (popup) => {
+  popup.classList.remove('popup__show');
+  document.removeEventListener("keydown", handleCloseOnEscape);
+};
+
+const openPopup = (popup) => {
+  popup.classList.add('popup__show');
+  document.addEventListener("keydown", handleCloseOnEscape);
+};
 
 
 function createElement(title, link){
@@ -102,37 +108,57 @@ initialCards.forEach(function(item){
 //event listeners
 
 editButton.addEventListener('click', function(){
-  closeWindow(popupProfile);
+  openPopup(popupProfile);
   inputName.value = profileName.textContent;
   inputJob.value = profileJob.textContent;
 });
 
 closeButtonEdit.addEventListener('click', function(){
-  closeWindow(popupProfile);
+  closePopup(popupProfile);
 });
 
 addButton.addEventListener('click', function(){
   formProfile.reset();
-  closeWindow(popupElement);
+  openPopup(popupElement);
 });
 
 closeButtonAdd.addEventListener('click', function(){
-  closeWindow(popupElement);
+  closePopup(popupElement);
 });
 
 closeButtonImage.addEventListener('click', function(){
-  closeWindow(popupImage);
+  closePopup(popupImage);
 });
 
 //tecla ESC
 
-document.addEventListener('keypress', function(e){
-  if(e.key==27) {
-    closeWindow(popup);;
-     }
-})
+function handleCloseOnEscape(e){
+  if(e.key== "Escape"){
+    popupProfile.classList.remove('popup__show');
+    popupElement.classList.remove('popup__show');
+    popupImage.classList.remove('popup__show');
+  }
+}
 
 //
+
+popupProfile.addEventListener('click', function(evt){
+  if (evt.target.classList.contains('popup__overlay')){
+    closePopup(popupProfile);
+  }
+});
+
+popupElement.addEventListener('click', function(evt){
+  if (evt.target.classList.contains('popup__overlay')){
+    closePopup(popupElement);
+  }
+});
+
+popupImage.addEventListener('click', function(evt){
+  if (evt.target.classList.contains('popup__overlay')){
+    closePopup(popupImage);
+  }
+});
 
 
 formProfile.addEventListener('submit', function(event){
@@ -150,8 +176,3 @@ formElement.addEventListener('submit', function(event){
   formElement.reset();
   closeWindow(popupElement);
 });
-
-//cerrar popup clicking outside
-window.addEventListener('click', e => e.target == popupProfile && popupElement && popupImage && closeWindow());
-
-//

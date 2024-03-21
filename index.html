@@ -48,10 +48,10 @@
         <form class="popup__form" novalidate>
             <h3 class="popup__text">Edit profile</h3>
             <fieldset class="popup__set">
-                <input type="text" class="popup__input" name="name" id="popup__name" placeholder="Profile name" minlength="2" maxlength="40">
+                <input required type="text" class="popup__input" name="name" id="popup__name" value="Jacques Cousteau" placeholder="Profile name" minlength="2" maxlength="40">
                 <span class="popup__error popup__name-error"></span>
                 <hr class="popup__line"/>
-                <input type="text" class="popup__input" name="job" id="popup__job" placeholder="Profile job" minlength="2" maxlength="200">
+                <input required type="text" class="popup__input" name="job" id="popup__job" value="Explorer" placeholder="Profile job" minlength="2" maxlength="200">
                 <span class="popup__error popup__job-error"></span>
                 <hr class="popup__line"/>
                 <input type="submit" class="popup__submit" value="Save">
@@ -66,13 +66,13 @@
     <form class="popup__form" novalidate>
         <h3 class="popup__text">Nuevo lugar</h3>
         <fieldset class="popup__set">
-            <input type="text" class="popup__input" name="title" id="popup__title" placeholder="Titulo" minlength="2" maxlength="30">
+            <input required type="text" class="popup__input" name="title" id="popup__title" placeholder="Titulo" minlength="2" maxlength="30">
             <span class="popup__error popup__title-error"></span>
             <hr class="popup__line"/>
-            <input type="url" class="popup__input" name="image" id="popup__image" placeholder="Enlace de la imagen" >
+            <input required type="url" class="popup__input" name="image" id="popup__image" placeholder="Enlace de la imagen" >
             <span class="popup__error popup__image-error"></span>
             <hr class="popup__line"/>
-            <input type="submit" class="popup__submit" value="Crear">
+            <input type="submit" class="popup__submit popup__button_disabled" value="Crear">
         </fieldset>
     </form>
 </div>
