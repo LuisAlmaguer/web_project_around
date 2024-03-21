@@ -94,6 +94,7 @@ function createElement(title, link){
   elementImageOpened.addEventListener('click', function(){
     popupImage.classList.toggle('popup__show');
     imageOpened.src = link;
+    imageOpened.alt = title;
     titleImageOpened.textContent=title;
   })
   return element;

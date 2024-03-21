@@ -12,7 +12,4 @@
 
 @import url(../blocks/popup.css);
 
-@font-face {
-    font-family: Inter;
-    src: url("../Fonts/Inter-VariableFont_slnt\,wght.ttf");
-}
+@import url(../Fonts/fonts.css);
