@@ -167,7 +167,7 @@ formProfile.addEventListener('submit', function(event){
   profileName.textContent = inputName.value;
   profileJob.textContent = inputJob.value;
   formProfile.reset();
-  closeWindow(popupProfile);
+  closePopup(popupProfile);
 });
 
 formElement.addEventListener('submit', function(event){
@@ -175,5 +175,5 @@ formElement.addEventListener('submit', function(event){
   const newCard = createElement(inputTitle.value, inputImage.value);
   cardArea.prepend(newCard);
   formElement.reset();
-  closeWindow(popupElement);
+  closePopup(popupElement);
 });
