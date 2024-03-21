@@ -140,7 +140,7 @@ function handleCloseOnEscape(e){
   }
 }
 
-//
+//click outside
 
 popupProfile.addEventListener('click', function(evt){
   if (evt.target.classList.contains('popup__overlay')){
