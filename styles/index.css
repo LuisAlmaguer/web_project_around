@@ -1,4 +1,4 @@
-@import url(../styles/normalize.css);
+@import url(../Vendor/normalize.css);
 
 @import url(../blocks/page.css);
 @import url(../blocks/header.css);
@@ -12,4 +12,4 @@
 
 @import url(../blocks/popup.css);
 
-@import url(../Fonts/fonts.css);
+@import url(../Vendor/Fonts/fonts.css);

@@ -43,7 +43,7 @@
     flex-shrink: 0;
     display: grid;
     grid-template-rows: 39px 39px;
-    grid-template-columns: 373px, 22px;
+    grid-template-columns: 373px 22px;
     grid-gap: 5px;
     grid-template-areas:
     "name edit" 
