@@ -1,8 +1,16 @@
-import './styles/index.css';
+import '../src/Vendor/normalize.css';
+import '../src/blocks/element.css';
+import '../src/blocks/elements.css';
+import '../src/blocks/footer.css';
+import '../src/blocks/header.css';
+import '../src/blocks/page.css';
+import '../src/blocks/popup.css';
+import '../src/blocks/profile.css';
+import '../src/Vendor/Fonts/fonts.css';
 
-import { Card } from "../script/Card.js";
-import { FormValidator } from "../script/FormValidator.js";
-import { Section } from "../script/Section.js";
+import { Card } from "./script/Card.js";
+import { FormValidator } from "./script/FormValidator.js";
+import { Section } from "./script/Section.js";
 import{
   openPopup, closePopup
 } from "./components/utils.js";
