@@ -1,12 +1,4 @@
-import '../src/Vendor/normalize.css';
-import '../src/blocks/element.css';
-import '../src/blocks/elements.css';
-import '../src/blocks/footer.css';
-import '../src/blocks/header.css';
-import '../src/blocks/page.css';
-import '../src/blocks/popup.css';
-import '../src/blocks/profile.css';
-import '../src/Vendor/Fonts/fonts.css';
+import '../src/styles/index.css';
 
 import { Card } from "./script/Card.js";
 import { FormValidator } from "./script/FormValidator.js";
